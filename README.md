@@ -1,3 +1,3 @@
 "# golang-practice" 
 
-Notes/practice files for leanring Go
+Notes/practice files for learning Go

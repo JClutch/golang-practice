@@ -1,12 +1,16 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 var card string
 
 func main() {
-	cards := newDeck()
-	fmt.Println(cards)
+	// cards := newDeck()
+	cards := newDeckFromFile("testFile1")
+	fmt.Println("what is this?", cards)
+	// cards.saveToFile("testFile1")
+	// hand, remaining := deal(cards, 3)
+
+	// hand.print()
+	// remaining.print()
 }
